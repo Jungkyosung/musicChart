@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+body {
+  padding-left: 30%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.musicIndex {
+  font-size: 1.3rem;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.albumImg {
+  width:70px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.musicChartEach{
+  display: flex;
+  align-items: center;
+}
+
+.lyricsButton {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.musicInfo {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-left: 2%;
 }
 
-.App-link {
-  color: #61dafb;
+.musicName {
+  font-size: 1.1rem;
+  padding-bottom: 5%;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.musicName:hover {
+  text-decoration: underline;
 }
+
+.musicSinger {
+ font-size: 0.9rem;
+ color: gray;
+ cursor: pointer;
+}
+
+.musicSinger:hover {
+  text-decoration: underline;
+ }
